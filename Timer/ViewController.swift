@@ -10,7 +10,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        resetMyTimer()
+    }
+    
+    func resetMyTimer(){
+        timeLabel.text = "초를 선택하세요"
+        timeTicker.value = 0.5
     }
     
     var number = 0
