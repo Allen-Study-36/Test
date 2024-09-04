@@ -20,9 +20,17 @@ class ViewController: UIViewController {
     
     var number = 0
   
-    @IBAction func tickerOnChanged(_sender: UISlider){
-        let seconds = Int(_sender.value * 60)
+    @IBAction func tickerOnChanged(_ sender: UISlider){
+        let seconds = Int(sender.value * 60)
         timeLabel.text = "\(seconds)초"
         number = seconds
+    }
+    
+    @IBAction func startOnClick(_ sender: UIButton){
+        
+    }
+    
+    @IBAction func resetOnClick(_ sender: UIButton){
+        
     }
 }
