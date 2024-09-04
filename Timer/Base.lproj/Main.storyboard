@@ -63,7 +63,7 @@
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="FIC-sJ-1pD">
                                                 <rect key="frame" x="53" y="0.0" width="267" height="31"/>
                                                 <connections>
-                                                    <action selector="tickerOnChangedWith_sender:" destination="BYZ-38-t0r" eventType="valueChanged" id="moJ-te-tHZ"/>
+                                                    <action selector="tickerOnChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="jSn-J9-C6e"/>
                                                 </connections>
                                             </slider>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60초" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9y-qs-Ahi">
